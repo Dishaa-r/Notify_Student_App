@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/bellimg"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="105dp"
+        android:src="@drawable/bell_img"
+        app:civ_border_color="#FAF6F6"
+        app:civ_border_width="2dp"
+        tools:ignore="MissingClass" />
+
+    <ImageView
+        android:id="@+id/notifymeimg"
+        android:layout_width="278dp"
+        android:layout_height="224dp"
+        android:layout_below="@+id/bellimg"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="-73dp"
+        android:layout_marginEnd="62dp"
+        android:src="@drawable/notifyme">
+
+    </ImageView>
+</RelativeLayout>
